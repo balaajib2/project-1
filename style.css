@@ -1,0 +1,88 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+header>h1{
+    font-weight:300;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav{
+    width: 30vw;
+    position :relative;
+    top:1rem;
+    right: 1.5rem;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:black;
+}
+section img{
+    width: 95vw;
+    left: 1.5vw;
+    position: relative;
+}
+article{
+    display: flex;
+    justify-content:space-between;
+    margin-top:3rem;
+}
+
+article div{
+    text-align: center;
+    margin:2rem;
+}
+
+article div h3{
+    font-size: 1.5rem;
+    font-weight: 3000;
+}
+
+article p{
+    font-size: 1.4rem;
+    font-weight: 3000;
+} 
+footer{
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    height: 4rem;
+    text-align: center;
+}
+footer h3{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight:300 ;
+    top:1rem;
+}
+nav a:hover{
+    background-color: grey;
+    color:black;
+    /* border-color: black;
+    border */
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+}
+
+.article:hover{
+    background-color: grey;
+}
+nav a: onclick{
+    width:7rem;
+    height:7.4rem;
+
+}
